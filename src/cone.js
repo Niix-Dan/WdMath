@@ -1,5 +1,5 @@
 module.exports = new class Cone {
-    /**
+    /** 
      * Returns the volume, base area, cone area, side length and surface area of the cone
      * @param {number} radius - The cone radius
      * @param {number} height - The cone height
@@ -13,7 +13,7 @@ module.exports = new class Cone {
         this.surfacearea = this.TotalSurfaceArea(radius, this.sidelength);
     }
     /**
-     * Gets the cone base area
+     * Base Area of a cone (πr²)
      * @param {number} radius The cone radius
      * @returns {number} The cone base area
      */
@@ -21,7 +21,7 @@ module.exports = new class Cone {
         return Math.PI * Math.pow(radius, 2);
     }
     /**
-     * Gets the cone area
+     * Area of a cone (πrs)
      * @param {number} radius - The cone radius
      * @param {number} sidelength - The cone side length
      * @returns {number} The cone area
@@ -30,7 +30,7 @@ module.exports = new class Cone {
         return Math.PI * radius * sidelength;
     }
     /**
-     * Gets the cone surface area
+     * Surface Area of a cone ((πr²)+(πrs))
      * @param {number} radius - The cone radius
      * @param {number} sidelength - The cone side length
      * @returns {number} The cone surface area
@@ -39,16 +39,16 @@ module.exports = new class Cone {
         return this.BaseArea(radius) + this.SideArea(radius, sidelength);
     }
     /**
-     * Gets the cone side length
+     * Side length of a cone (√(r2+h2))
      * @param {number} radius - The cone radius
      * @param {number} height - The cone height 
      * @returns {number} The cone side length
      */
     SideLength(radius, height) {
-        return Math.sqrt(radius*2, height*2)
+        return Math.sqrt(radius*2 + height*2)
     }
     /**
-     * Gets the cone volume
+     * Volume of a cone (1/3 πr²h)
      * @param {number} radius - The cone radius
      * @param {number} height - The cone height
      * @returns {number} The cone volume

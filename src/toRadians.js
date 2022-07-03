@@ -1,6 +1,6 @@
 
 /**
- * Transform degrees to radians
+ * Degrees to Radians (dπ/180)
  * @param {number} degrees - Degrees
  * @returns {number} radians
  */

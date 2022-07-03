@@ -4,5 +4,7 @@ module.exports = {
     getBearing: require("./bearing"),
     distInKm: require("./distInKm"),
     cone: require("./cone"),
-    sphere: require("./sphere")
+    sphere: require("./sphere"),
+    cylinder: require("./cylinder"),
+    retangularPrism: require("./retangularPrism")
 }

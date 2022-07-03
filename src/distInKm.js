@@ -1,7 +1,7 @@
 const { toRadians, toDegrees } = require("./modules.js");
 
 /**
- * Get the distance between two coordinates in KM
+ * Distance between two coordinates in KM
  * @param {number} lat1 - Start latitude
  * @param {number} lon1 - Start longitude
  * @param {number} lat2 - Dest latitude

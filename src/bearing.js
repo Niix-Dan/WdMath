@@ -1,8 +1,7 @@
 const { toRadians, toDegrees } = require("./modules.js");
 
-
 /**
- * Gets the bearing between two coordinates
+ * Bearing between two coordinates
  * @param {number} startLat - Start latitude
  * @param {number} startLng - Start longitude
  * @param {number} destLat - Dest latitude
