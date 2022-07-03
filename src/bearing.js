@@ -7,6 +7,7 @@ const { toRadians, toDegrees } = require("./modules.js");
  * @param {number} startLng - Start longitude
  * @param {number} destLat - Dest latitude
  * @param {number} destLng - Dest longitude
+ * @returns {number} The bearing
  */
 module.exports = function(startLat, startLng, destLat, destLng) {
     startLat = toRadians(startLat);

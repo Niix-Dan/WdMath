@@ -6,6 +6,7 @@ const { toRadians, toDegrees } = require("./modules.js");
  * @param {number} lon1 - Start longitude
  * @param {number} lat2 - Dest latitude
  * @param {number} lon2 - Dest longitude
+ * @returns {number} the distance between the coordinates in KM
  */
 module.exports = function(lat1, lon1, lat2, lon2) {
     var R = 6371;
