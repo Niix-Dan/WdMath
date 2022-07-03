@@ -11,7 +11,11 @@
     "url": "git+https://github.com/Niix-Dan/WdMath.git"
   },
   "keywords": [
-    "WdMath"
+    "WdMath",
+    "math",
+    "node",
+    "geometry",
+    "calc"
   ],
   "author": "Niix-Dan",
   "license": "ISC",
