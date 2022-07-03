@@ -3,10 +3,10 @@ const { toRadians, toDegrees } = require("./modules.js");
 
 /**
  * Gets the bearing between two coordinates
- * @param {number} lat1 - Start latitude
- * @param {number} lon1 - Start longitude
- * @param {number} lat2 - Dest latitude
- * @param {number} lon2 - Dest longitude
+ * @param {number} startLat - Start latitude
+ * @param {number} startLng - Start longitude
+ * @param {number} destLat - Dest latitude
+ * @param {number} destLng - Dest longitude
  */
 module.exports = function(startLat, startLng, destLat, destLng) {
     startLat = toRadians(startLat);
