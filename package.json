@@ -1,0 +1,22 @@
+{
+  "name": "wdmath",
+  "version": "0.0.1-dev",
+  "description": "WdMath is an extension for advanced math calcs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Niix-Dan/WdMath.git"
+  },
+  "keywords": [
+    "WdMath"
+  ],
+  "author": "Niix-Dan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Niix-Dan/WdMath/issues"
+  },
+  "homepage": "https://github.com/Niix-Dan/WdMath#readme"
+}
