@@ -24,4 +24,4 @@ let cone = WdMath.cone(radius, height); // Some stuff about cone calcs
 ```
 
 ## Help
-If you want to help us at this project, please don't hesitate to join us official [discord server](https://discord.gg/ucq6sg3CWd)
+If you want to help us at this project, please don't hesitate on create a [pull request](https://github.com/Niix-Dan/WdMath/pulls)
