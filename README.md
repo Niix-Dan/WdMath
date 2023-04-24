@@ -1,3 +1,10 @@
+<p align="center">
+<img src="https://img.shields.io/github/languages/code-size/Niix-Dan/WdMath.svg"></a>
+<a href="https://github.com/Niix-Dan/WdMath/graphs/contributors"><img src="https://img.shields.io/github/contributors/Niix-Dan/WdMath.svg"></a>
+<a href="https://github.com/Niix-Dan/WdMath/stargazers"><img src="https://img.shields.io/github/stars/Niix-Dan/WdMath.svg?label=Stars&logo=github"></a>
+</p>
+
+
 ## About
 
 WdMath is a powerful [Node.js](https://nodejs.org) module that helps you in math questions, this module is for advanced calcs using geometric math and others
