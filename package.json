@@ -1,6 +1,6 @@
 {
   "name": "wdmath",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "WdMath is an extension for advanced math calcs",
   "main": "index.js",
   "scripts": {
