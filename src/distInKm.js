@@ -1,4 +1,4 @@
-const { toRadians, toDegrees } = require("./modules.js");
+const { toRadians } = require("./modules.js");
 
 /**
  * Distance between two coordinates in KM

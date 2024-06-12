@@ -13,9 +13,9 @@
   "keywords": [
     "WdMath",
     "math",
-    "node",
     "geometry",
-    "calc"
+    "calc",
+    "complex"
   ],
   "author": "Niix-Dan",
   "license": "ISC",

@@ -12,6 +12,7 @@ module.exports = new class Cone {
         this.conearea = this.ConeArea(radius, this.sidelength);
         this.surfacearea = this.TotalSurfaceArea(radius, this.sidelength);
     }
+
     /**
      * Base Area of a cone (πr²)
      * @param {number} radius The cone radius
@@ -20,6 +21,7 @@ module.exports = new class Cone {
     BaseArea(radius) {
         return Math.PI * Math.pow(radius, 2);
     }
+
     /**
      * Area of a cone (πrs)
      * @param {number} radius - The cone radius
@@ -29,6 +31,7 @@ module.exports = new class Cone {
     ConeArea(radius, sidelength) {
         return Math.PI * radius * sidelength;
     }
+
     /**
      * Surface Area of a cone ((πr²)+(πrs))
      * @param {number} radius - The cone radius
@@ -38,6 +41,7 @@ module.exports = new class Cone {
     SurfaceArea(radius, sidelength) {
         return this.BaseArea(radius) + this.SideArea(radius, sidelength);
     }
+
     /**
      * Side length of a cone (√(r2+h2))
      * @param {number} radius - The cone radius
@@ -47,6 +51,7 @@ module.exports = new class Cone {
     SideLength(radius, height) {
         return Math.sqrt(radius*2 + height*2)
     }
+    
     /**
      * Volume of a cone (1/3 πr²h)
      * @param {number} radius - The cone radius

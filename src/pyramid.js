@@ -1,4 +1,15 @@
 module.exports = new class Pyramid {
+    /** 
+     * Returns the volume and the surface area of the pyramid.
+     * @param {number} base - Pyramid base
+     * @param {number} height - Pyramid height
+     * @returns {object}
+     */
+    constructor(base, height) {
+        this.volume = Volume(base, height);
+        this.surfacearea = this.SurfaceArea(base, height);
+    }
+
     /**
      * Surface Area of a Pyramid (2bs+b²)
      * @param {number} base - Pyramid base length

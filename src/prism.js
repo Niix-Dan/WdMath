@@ -10,6 +10,7 @@ module.exports = new class Prism {
     SurfaceArea(base, height, length, side) {
         return base * height + 2 * length * side + length * base;
     }
+
     /**
      * Volume of a prism (1/2(bh)l)
      * @param {number} base - The prism base
