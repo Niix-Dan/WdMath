@@ -3,6 +3,7 @@
 <a href="https://github.com/Niix-Dan/WdMath/graphs/contributors"><img src="https://img.shields.io/github/contributors/Niix-Dan/WdMath.svg"></a>
 <a href="https://github.com/Niix-Dan/WdMath/stargazers"><img src="https://img.shields.io/github/stars/Niix-Dan/WdMath.svg?label=Stars&logo=github"></a>
 </p>
+
 ---
 
 # WdMath
@@ -26,12 +27,7 @@ To install WdMath, you can use npm or include the script directly in your projec
 
 ```sh
 npm install wdmath
-```
-
-Or include in your HTML:
-
-```html
-<script src="path/to/wdmath.js"></script>
+yarn add wdmath
 ```
 
 ## Usage
