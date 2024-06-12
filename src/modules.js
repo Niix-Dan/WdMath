@@ -6,5 +6,7 @@ module.exports = {
     cone: require("./cone"),
     sphere: require("./sphere"),
     cylinder: require("./cylinder"),
-    retangularPrism: require("./retangularPrism")
+    retangularPrism: require("./retangularPrism"),
+    complex: require("./complex"),
+    array: require("./array")
 }
